@@ -16,3 +16,4 @@ console.log(undefined > 0);
 console.log(undefined < 0);
 
 // === comparison with datatype
+console.log("2" === 2)
