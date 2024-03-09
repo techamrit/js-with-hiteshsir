@@ -6,7 +6,7 @@ console.log(
     +
     3
 )//code readabilaty should be high
-//below 10 line code written way is wrong don't do this
+//below 10th line code written way is wrong don't do this
 console.log(amrit); console.log(2-2)// code readabilaty should be high
 
 let name="amrit";
