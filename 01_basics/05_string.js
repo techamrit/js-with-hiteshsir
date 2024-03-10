@@ -2,7 +2,7 @@ const myName = "amrit"
 const myRepo = 5
 // console.log(myName + myRepo + "values")
 
-// console.log(`hello my name is ${myName} and my repo is ${myRepo} `)
+// console.log(`hello my name is ${myName} and my repo is ${myRepo} `)//s;tringInterPolation
 
 const gameName = new String("amritji")
 // console.log(gameName[0])
