@@ -28,9 +28,36 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world")
 };                                  //object Function
-console.log(typeof (let))
+// console.log(typeof (let))//undefinded
 // console.log(typeof (const))
 // console.log(typeof (var))
 
 //below mention code for read 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (primitive), heap (non-primitive)
+
+//stack
+console.log("Stack")
+let myNameis = "amrit"
+let anothername = myNameis;
+anothername = "amrit pal"
+
+console.log(myNameis);
+console.log(anothername);
+
+//heap
+console.log("Heap")
+let userOne ={
+    email:"amritpg662@gmail.com",
+    upi:"amrit@ybl"
+}
+
+let userTwo =userOne;
+
+userTwo.email = "amritp662@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
