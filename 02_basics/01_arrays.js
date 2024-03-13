@@ -45,3 +45,14 @@ const myNewArr2 = myArr.splice(0,5);
 console.log("c",myArr);
 
 console.log(myNewArr2);
+
+// const marvel_heros = ["caption","thor","hulk","spiderman","Iron", "antman"]
+// const dc_heros = ["Superman","batman","flash" ,"amrit","manish","vivek"]
+
+// const myNewArray4 = marvel_heros.slice(2,4)
+// console.log(marvel_heros);
+// console.log(myNewArray4);
+
+// const myNewArray5 = dc_heros.splice(1,4)
+// console.log(dc_heros);
+// console.log(myNewArray5)
