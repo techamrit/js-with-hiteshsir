@@ -55,5 +55,31 @@ const users = [
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('id'));
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('id'));
+// console.log(tinderUser.hasOwnProperty('name'));
+
+
+
+
+//***********destructuring*************/
+const courses = {
+    courseName:"js in hindi ",
+    time:"any",
+    priceing:"free",
+    instructor:"hitesh sir"
+}
+// console.log(courses);
+
+const {courseName } = courses// direct call by key
+// const {courseName: teacher } = courses// give key name short
+
+console.log(courseName);
+// console.log(teacher);
+
+
+/*
+json
+{
+    "name":"amrit"
+}
+*/ 
