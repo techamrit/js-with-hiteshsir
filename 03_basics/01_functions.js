@@ -48,12 +48,42 @@ console.log(loggedIn("amrit"))//amrit just logged in
 console.log(loggedIn(""))// just logged in 
 console.log(loggedIn())//undefined just logged in 
 */
-
-function loggedIn(username){
-    if(!undefined){
+/*
+function loggedIn(username="amrit"){
+    if(username===undefined){
         console.log("plese enter user name");
         return
     }
     return `${username} just logged in`;
 }
-console.log(loggedIn())//plese enter user nameundefined just logged in 
+console.log(loggedIn("amritpal"))//plese enter user nameundefined just logged in */ 
+
+function calculateCartPrices(val3,...num1){
+    return num1
+}
+
+// console.log(calculateCartPrices(200,300,400,100))
+
+const user ={
+    userName: "amrit",
+    price:199
+}
+
+function handelObject(anyObject){
+    // console.log(`username is ${anyObject.userName} and price is ${anyObject.price}`)
+}
+// handelObject(user)
+
+handelObject({
+    userName:"summay",
+    price:300
+})
+
+
+const myNewArray = [100,200,300,400,500];
+function returnSecondValue(returnArray){
+    return returnArray[0]
+}
+// console.log(returnSecondValue(myNewArray));//first way to print array value
+
+// console.log(returnSecondValue([1000,2000,3000,4000,5000]))//This is 2nd way for print array value
