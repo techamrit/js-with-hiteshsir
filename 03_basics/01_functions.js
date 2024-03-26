@@ -57,7 +57,7 @@ function loggedIn(username="amrit"){
     return `${username} just logged in`;
 }
 console.log(loggedIn("amritpal"))//plese enter user nameundefined just logged in */ 
-
+//rest
 function calculateCartPrices(val3,...num1){
     return num1
 }
