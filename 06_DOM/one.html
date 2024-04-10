@@ -9,11 +9,79 @@
     <!-- founder of js = Brendan Eich ,dob july 4 1961 -->
     <!-- console.dir(document) 
     console.log(document)-->
+    <!--browser console.log()
+         document.getElementById("")
+     document.getElementById("title")
+     document.getElementById("title").id
+     document.getElementById("title").className
+     document.getElementById("title").getAttribute("id")
+     document.getElementById("title").getAttribute("id")//key pass karni hai value milaga gi
+     document.getElementById("title").getAttribute("class", "test heading")
+     const title=document.getElementById("title")
+     title.style.backgroundColor="green"
+     title.innerHTML// is ma jo bhi tag bhi hoga vo bhi show hoga
+     title.textContent// kuch chija hide bhi hothi hai 
+     title.innerText// jo visibal hai vo hi show hoga
+
+     document.quarySelector("h1")
+     document.quarySelector("h2")
+     document.quarySelector("#title")
+     document.quarySelector(".heading")
+    document.quarySelector("input[type="password"]")
+    document.quarySelector('p:first-child')
+
+    //node List
+    document.quarySelector('ul')
+    const myul = document.quarySelector('ul')
+    myul.quarySelector('li')
+    const turnGreen = myul.quarySelector('li')
+    turnGreen.style.backgroundColor = "red"
+    turnGreen.style.padding = "10px"
+    turnGreen.innerText
+    turnGreen.innerText = "five"
+
+    document.quarySelectorAll('li')
+    const tempLiList = document.quarySelectorAll('li')
+    tempLiList[0].style.color = "green" //array jasa dikta hia per array nahi hai per kafi kubi milti hai 
+       const myH1 = document.quarySelectorAll("h1") 
+       myH1[0].style.color = "red"
+
+       tempLiList.forEach(function (l){
+        l.style.backgroundColor = "green"
+       })
+       
+
+       //HTML Collection
+       document.getElementsByClassName('list-item')
+       const tempListItem = document.getElementsByClassName('list-item')
+
+
+       // how to convert htmlcollection in Array (Array ma a Capital hi hoga )
+       Array.from(tempListItem)
+        const myConvertedArr = Array.from(tempListItem)
+
+//convert in arary ( now all key word u use)
+        myconvertedArr.forEach(function (li){
+            li.style.color = "orange"
+        })
+
+         -->
 <div class="first-div">
-    <h1 class="first-heading">This is First Heading</h1>
+    <h1 id="title" class="first-heading">This is First Heading</h1>
+    <h2> Lorem ipsum dolor sit amet.</h2>
+    <h2> Lorem ipsum dolor sit amet.</h2>
+    <h2> Lorem ipsum dolor sit amet.</h2>
 <p>
     Lorem ipsum dolor sit amet.
 </p>
 </div>
+<input type="password" name="password">
+<ul>
+    <li class="list-item">one</li>
+    <li class="list-item">two</li>
+    <li class="list-item">three</li>
+    <li class="list-item">three</li>
+</ul>
 </body>
 </html>
+
